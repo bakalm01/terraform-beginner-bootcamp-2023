@@ -91,4 +91,4 @@ https://en.wikipedia.org/wiki/Chmod
 ### Github Lifecycle (Before, Init, Command)
 We need to be careful when using the Init because it will not rerun if we restart an existing workspace.
 
-https://www.gitpod.io/docs/configure/workspaces/tasks
+https://www.gitpod.io/docs/configure/workspaces/tasks 
