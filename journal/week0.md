@@ -1,14 +1,14 @@
 # Terraform Beginner Bootcamp 2023 - Week O
 
-  * [Semantic Versioning :mage:](#semantic-versioning--mage-)
-  * [Install the Terraform CLI](#install-the-terraform-cli)
+  - [Semantic Versioning :mage:](#semantic-versioning--mage-)
+  - [Install the Terraform CLI](#install-the-terraform-cli)
     + [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
     + [Consideration for Linux Distribution](#consideration-for-linux-distribution)
     + [Refactoring into Bash Scripts](#refactoring-into-bash-scripts)
     + [Shebang Consideration](#shebang-consideration)
       - [Execution Considerations](#execution-considerations)
       - [Linux Permissions Considerations](#linux-permissions-considerations)
-    + [Github Lifecycle (Before, Init, Command)](#github-lifecycle--before--init--command-)
+   - [Gitpod Lifecycle (Before, Init, Command)](#github-lifecycle--before--init--command-)
     + [Working Env Vars](#working-env-vars)
       - [env command](#env-command)
       - [Setting and Unsetting Env Vars](#setting-and-unsetting-env-vars)
@@ -115,7 +115,7 @@ chmod 744 ./bin/install_terraform_cli
 
 https://en.wikipedia.org/wiki/Chmod
 
-### Github Lifecycle (Before, Init, Command)
+### Gitpod Lifecycle (Before, Init, Command)
 We need to be careful when using the Init because it will not rerun if we restart an existing workspace.
 
 https://www.gitpod.io/docs/configure/workspaces/tasks 
